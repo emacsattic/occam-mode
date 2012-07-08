@@ -706,3 +706,5 @@ is non-nil"
   "Expressions to hightlight in Occam mode."))
 
 (setq auto-mode-alist (cons '("\\.occ$" . occam-mode) auto-mode-alist))
+
+(provide 'occam-mode)
